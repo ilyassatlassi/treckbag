@@ -13,7 +13,6 @@ function ItemList({items}) {
           />
         );
       })}
-
     </ul>
   )
 }

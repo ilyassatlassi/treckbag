@@ -30,7 +30,7 @@ function App() {
     <main>
       <Header/>
       <ItemList items = {items}/>
-      <Sidebar/>
+      <Sidebar setItems = {setItems}/>
 
     </main>
     <Footer/>
