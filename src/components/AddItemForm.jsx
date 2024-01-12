@@ -2,6 +2,8 @@ import { useRef, useState } from "react";
 import Button from "./Button";
 
 export default function AddItemForm({ onAddItem }) {
+  const [itemText, setItemText] = useState("");
+  const inputRef = useRef();
 //   const handleSubmit = (e) => {
 //     e.preventDefault();
 
